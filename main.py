@@ -9,7 +9,7 @@ from playsound import playsound
 VIDEO_NAME = "examples/bad_apple.mp4"
 
 AUDIO_NAME = ".".join(VIDEO_NAME.split(".")[:-1]) + ".mp3"
-FRAME_TIME = 33333333
+FRAME_TIME = 33333000
 
 if not os.path.exists(AUDIO_NAME):
     videoclip = VideoFileClip(VIDEO_NAME)
