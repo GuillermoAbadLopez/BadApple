@@ -6,7 +6,7 @@ from moviepy.editor import VideoFileClip
 from PIL import Image
 from playsound import playsound
 
-VIDEO_NAME = "examples/bad.mp4"
+VIDEO_NAME = "examples/bad_apple.mp4"
 
 AUDIO_NAME = ".".join(VIDEO_NAME.split(".")[:-1]) + ".mp3"
 FRAME_TIME = 33333333
